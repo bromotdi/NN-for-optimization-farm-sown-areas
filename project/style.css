@@ -1,0 +1,30 @@
+#fieldsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 300px;
+}
+
+.field {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+.bullelements {
+    font-size: 4.5rem;
+}
+
+.percentage {
+    display: flex;
+}
+.percentage > * {
+    line-height: 10px;
+    display: inline;
+}
+#income p {
+    font-size: larger;
+}
